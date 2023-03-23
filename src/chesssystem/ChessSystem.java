@@ -1,12 +1,15 @@
 
 package chesssystem;
 
+import tabuleiro.Posicao;
+
 
 public class ChessSystem {
 
     
     public static void main(String[] args) {
-       System.out.println("Hello World");
+       Posicao pos = new Posicao(3,5);
+        System.out.println(pos);
     }
     
 }

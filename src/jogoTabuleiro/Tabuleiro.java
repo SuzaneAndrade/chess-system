@@ -33,7 +33,12 @@ public class Tabuleiro {
         this.colunas = colunas;
     }
     
-    
+    public Peca peca(int linha, int coluna) {
+		//if (!positionExists(linha, coluna)) {
+			//throw new BoardException("Position not on the board");
+		//}
+		return peca[linha][coluna];
+	}
     
     
     
